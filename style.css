@@ -1,0 +1,182 @@
+nav a {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+Css
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+Css
+
+header{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+h1, h2{
+    font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    max-width: 80%;
+}
+.navbar{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+Css
+
+@media (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        max-width: 70%;
+    }
+    h1{
+        font-size: 16px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #f8f9fa;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Signup Page */
+.signup-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.signup-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Page */
+.contact-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 10px;
+}
+
+/* About Page */
+.about-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.ceo-img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .signup-container {
+        width: 90%;
+    }
+}
+
